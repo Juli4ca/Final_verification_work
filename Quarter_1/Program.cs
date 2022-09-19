@@ -24,5 +24,12 @@ string[] MassStr (int size)
         
 }
 
+string[] MassShortLines (string[] arr)
+{
+    
+}
+
+
+
 string[] arr_1 = MassStr(5);
 Print(arr_1);
