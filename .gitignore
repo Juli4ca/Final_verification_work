@@ -55,3 +55,4 @@ bin/
 obj/
 .gitignore
 /bin/Debug/net6.0
+Quarter_1.csproj
