@@ -54,3 +54,4 @@ dkms.conf
 bin/
 obj/
 .gitignore
+/bin/Debug/net6.0
