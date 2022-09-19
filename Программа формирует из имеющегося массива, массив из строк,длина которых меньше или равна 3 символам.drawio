@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="lnnpf--hSiGeR-MP2k83" name="Страница 1">
+        <mxGraphModel dx="543" dy="1450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EkQcSreP7O6kMQiEZJB1-1" target="EkQcSreP7O6kMQiEZJB1-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EkQcSreP7O6kMQiEZJB1-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EkQcSreP7O6kMQiEZJB1-2" target="EkQcSreP7O6kMQiEZJB1-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EkQcSreP7O6kMQiEZJB1-2" value="arr[], shot_arr[],&lt;br&gt;count = 0&lt;br&gt;size = arr.Length" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="140" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EkQcSreP7O6kMQiEZJB1-4" target="FrafDE_Ft0ZdlexAHK_q-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EkQcSreP7O6kMQiEZJB1-4" value="for i = 0; i &amp;lt; size; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="240" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FrafDE_Ft0ZdlexAHK_q-3" target="EkQcSreP7O6kMQiEZJB1-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="530" y="400"/>
+                            <mxPoint x="530" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-5" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FrafDE_Ft0ZdlexAHK_q-4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2986" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FrafDE_Ft0ZdlexAHK_q-3" target="FrafDE_Ft0ZdlexAHK_q-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-9" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FrafDE_Ft0ZdlexAHK_q-8" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2471" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-3" value="arr[i] &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="360" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FrafDE_Ft0ZdlexAHK_q-7" target="FrafDE_Ft0ZdlexAHK_q-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-7" value="shot_arr[count] = arr[i]&lt;br&gt;count++" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="370" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FrafDE_Ft0ZdlexAHK_q-10" target="FrafDE_Ft0ZdlexAHK_q-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-10" value="arr[]&lt;br&gt;shot_arr[]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="480" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-12" value="end" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FrafDE_Ft0ZdlexAHK_q-14" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;Дан одномерный массив строк. Программа формирует из имеющегося массива, массив из строк,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;длина которых меньше или равна 3 символам.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry width="300" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
